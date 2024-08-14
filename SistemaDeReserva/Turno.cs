@@ -9,6 +9,7 @@ namespace SistemaDeReserva
     internal class Turno
     {
         public int Reserva { get; set; }
+        public int Canchas { get; set; }
 
     }
 }
