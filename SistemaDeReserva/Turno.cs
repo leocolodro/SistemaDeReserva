@@ -8,5 +8,7 @@ namespace SistemaDeReserva
 {
     internal class Turno
     {
+        public int Reserva { get; set; }
+
     }
 }
