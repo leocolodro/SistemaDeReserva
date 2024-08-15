@@ -8,8 +8,15 @@ namespace SistemaDeReserva
 {
     internal class Turno
     {
-        public int Reserva { get; set; }
-        public int Canchas { get; set; }
+        public string FechaHorarioInicio { get; set; }
+        public int Duracion { get; set; }
+        public string Estado { get; set; }
 
+        public Turno(string fechaHorarioInicio, int duracion, string estado)
+        {
+            FechaHorarioInicio = fechaHorarioInicio;
+            Duracion = duracion;
+            Estado = estado;
+        }
     }
 }
